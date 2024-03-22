@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intrusion Detection System Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 20px auto;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        ul li a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .content {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content h2 {
+            color: #333;
+        }
+
+        .content p {
+            color: #666;
+        }
+
+        .feedback-form {
+            margin-top: 30px;
+        }
+
+        .feedback-form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .feedback-form input[type="text"],
+        .feedback-form input[type="email"],
+        .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .feedback-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .feedback-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        .try-it-now-button {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .try-it-now-button button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .try-it-now-button button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Robust Network Security: Utilizing Random Forest and PCA for Intrusion Detection</h1>
+    
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+
+    <div id="home" class="content">
+        <h2>Intrusion Detection System</h2>
+        <p>Robust Network Security: Utilizing Random Forest and PCA for Intrusion Detection is a cutting-edge project designed to bolster network security in the face of escalating cyber threats. By harnessing the power of Random Forest, an ensemble learning algorithm renowned for its robustness and accuracy, alongside Principal Component Analysis (PCA) for dimensionality reduction, this system offers a formidable defense against malicious activities. By scrutinizing network traffic data, the IDS can swiftly detect anomalies and abnormal patterns indicative of unauthorized access, malware incursions, or denial-of-service attacks. Through real-time threat detection and adaptability to evolving attack strategies, organizations can fortify their networks, preemptively thwarting potential breaches, and safeguarding sensitive information and critical assets.</p>
+        
+        <div class="try-it-now-button">
+            <button onclick="alert('Intrusion Detection');">Try It Now</button>
+        </div>
+        
+        <div class="feedback-form">
+            <h3>Feedback</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
